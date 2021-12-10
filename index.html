@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let str = "12i249503mfm";
+        function checkNumber(str) {
+            let numArr = [];
+            let len = str.length;
+            for (let i = 0; i < len; i++) {
+                if (!isNaN(str[i])) {
+                    numArr.push(str[i]);
+                }
+            }
+            return numArr;
+        }
+        console.log(...checkNumber(str));
+
+        let s = "29j9kkfk";
+        console.log(...s);
+    </script>
+</body>
+
+</html>
